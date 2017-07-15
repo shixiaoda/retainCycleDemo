@@ -1,0 +1,9 @@
+platform :ios, ‘7.0’
+
+target ‘retainCycleDemo’ do
+pod 'SDWebImage’
+pod 'SDWebImage/WebP'
+pod 'SDWebImage/GIF’
+pod 'YYWebImage'
+ pod 'MLeaksFinder', '~> 0.2.1'
+end
